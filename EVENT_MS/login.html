@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Leadership Event</title>
+
+    <!-- CSS FILES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/slick.css" />
+
+    <link href="css/tooplate-leadership-event.css" rel="stylesheet">
+    <link href="css/page-transitions.css" rel="stylesheet">
+
+    <!--
+
+Tooplate 2125 Leadership Event
+
+https://www.tooplate.com/view/2125-leadership-event
+
+-->
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <span>Leadership</span>
+                Event
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="speakers.html">Speakers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="schedule.html">Schedule</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pricing.html">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="venue.html">Venue</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="buy-now.html">Buy Now</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="register.html">Register</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
+            <div class="section-overlay"></div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-12 text-center">
+                        <h1 class="text-white">Login to Your Account</h1>
+                        <p class="text-white">Access your event dashboard and manage your registrations</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-padding">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-md-8 col-12">
+                        <div class="card shadow-lg border-0">
+                            <div class="card-body p-5">
+                                <div class="text-center mb-4">
+                                    <h3 class="mb-3">Welcome Back</h3>
+                                    <p class="text-muted">Please sign in to your account</p>
+                                </div>
+
+                                <form id="loginForm" class="needs-validation" novalidate>
+                                    <div class="mb-3">
+                                        <label for="email" class="form-label">Email Address</label>
+                                        <input type="email" class="form-control" id="email" name="email" required>
+                                        <div class="invalid-feedback">
+                                            Please enter a valid email address.
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="password" class="form-label">Password</label>
+                                        <div class="input-group">
+                                            <input type="password" class="form-control" id="password" name="password" required>
+                                            <button class="btn btn-outline-secondary" type="button" id="togglePassword">
+                                                <i class="bi bi-eye"></i>
+                                            </button>
+                                        </div>
+                                        <div class="invalid-feedback">
+                                            Please enter your password.
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-3 form-check">
+                                        <input type="checkbox" class="form-check-input" id="rememberMe">
+                                        <label class="form-check-label" for="rememberMe">
+                                            Remember me
+                                        </label>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <a href="#" class="text-decoration-none">Forgot your password?</a>
+                                    </div>
+
+                                    <div class="d-grid">
+                                        <button type="submit" class="btn custom-btn">
+                                            Sign In
+                                        </button>
+                                    </div>
+                                </form>
+
+                                <div class="text-center mt-4">
+                                    <p class="mb-0">Don't have an account? 
+                                        <a href="register.html" class="text-decoration-none">Sign up here</a>
+                                    </p>
+                                </div>
+
+                                <div class="text-center mt-4">
+                                    <p class="text-muted mb-3">Or sign in with</p>
+                                    <div class="d-flex justify-content-center gap-3">
+                                        <button class="btn btn-outline-primary">
+                                            <i class="bi bi-google"></i> Google
+                                        </button>
+                                        <button class="btn btn-outline-dark">
+                                            <i class="bi bi-facebook"></i> Facebook
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-12 mb-4 pb-2">
+                    <a class="navbar-brand mb-2" href="index.html">
+                        <span>Leadership</span>
+                        Event
+                    </a>
+
+                    <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-12">
+                    <h6 class="site-footer-title mb-3">Quick Links</h6>
+
+                    <ul class="site-footer-links">
+                        <li class="site-footer-link-item">
+                            <a href="about.html" class="site-footer-link">About</a>
+                        </li>
+
+                        <li class="site-footer-link-item">
+                            <a href="speakers.html" class="site-footer-link">Speakers</a>
+                        </li>
+
+                        <li class="site-footer-link-item">
+                            <a href="schedule.html" class="site-footer-link">Schedule</a>
+                        </li>
+
+                        <li class="site-footer-link-item">
+                            <a href="pricing.html" class="site-footer-link">Pricing</a>
+                        </li>
+
+                        <li class="site-footer-link-item">
+                            <a href="venue.html" class="site-footer-link">Venue</a>
+                        </li>
+
+                        <li class="site-footer-link-item">
+                            <a href="contact.html" class="site-footer-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-12">
+                    <h6 class="site-footer-title mb-3">Information</h6>
+
+                    <p class="text-white d-flex mb-1">
+                        <a href="tel: 305-240-9671" class="site-footer-link">
+                            Phone: 305-240-9671
+                        </a>
+                    </p>
+
+                    <p class="text-white d-flex">
+                        <a href="mailto:info@company.com" class="site-footer-link">
+                            Email: info@company.com
+                        </a>
+                    </p>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-12">
+                    <h6 class="site-footer-title mb-3">Social</h6>
+
+                    <div class="site-footer-social-container">
+                        <a class="social-icon-link" href="#">
+                            <i class="bi bi-twitter"></i>
+                        </a>
+
+                        <a class="social-icon-link" href="#">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+
+                        <a class="social-icon-link" href="#">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+
+                        <a class="social-icon-link" href="#">
+                            <i class="bi bi-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container pt-5">
+            <div class="row align-items-center">
+                <div class="col-lg-2 col-md-6 col-12">
+                    <a class="navbar-brand" href="index.html">
+                        <span>Leadership</span>
+                        Event
+                    </a>
+                </div>
+
+                <div class="col-lg-7 col-md-6 col-12">
+                    <ul class="site-footer-links">
+                        <li class="site-footer-link-item">
+                            <a href="#" class="site-footer-link">Privacy Policy</a>
+                        </li>
+
+                        <li class="site-footer-link-item">
+                            <a href="#" class="site-footer-link">Terms of Service</a>
+                        </li>
+
+                        <li class="site-footer-link-item">
+                            <a href="#" class="site-footer-link">Cookie Policy</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-12">
+                    <p class="copyright-text">Copyright © 2036 Leadership Event Co.
+                        <br>All rights reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT FILES -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/click-scroll.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/page-transitions.js"></script>
+
+    <script>
+        // Form validation
+        (function() {
+            'use strict';
+            window.addEventListener('load', function() {
+                var forms = document.getElementsByClassName('needs-validation');
+                var validation = Array.prototype.filter.call(forms, function(form) {
+                    form.addEventListener('submit', function(event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+            }, false);
+        })();
+
+        // Password toggle
+        document.getElementById('togglePassword').addEventListener('click', function() {
+            const password = document.getElementById('password');
+            const icon = this.querySelector('i');
+            
+            if (password.type === 'password') {
+                password.type = 'text';
+                icon.classList.remove('bi-eye');
+                icon.classList.add('bi-eye-slash');
+            } else {
+                password.type = 'password';
+                icon.classList.remove('bi-eye-slash');
+                icon.classList.add('bi-eye');
+            }
+        });
+
+        // Login form submission
+        document.getElementById('loginForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+            
+            // Here you would typically send the data to your server
+            console.log('Login attempt:', { email, password });
+            
+            // For demo purposes, show success message
+            alert('Login successful! Redirecting to dashboard...');
+            // You can redirect to dashboard or home page here
+            // window.location.href = 'index.html';
+        });
+    </script>
+
+</body>
+
+</html>
