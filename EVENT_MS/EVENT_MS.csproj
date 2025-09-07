@@ -67,7 +67,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".gitignore" />
     <Content Include="about.html" />
+    <Content Include="add_event.aspx" />
     <Content Include="adminD.aspx" />
     <Content Include="adminDashboard.aspx" />
     <Content Include="AdminLogin.aspx" />
@@ -110,6 +112,7 @@
     <Content Include="login.aspx" />
     <Content Include="login.html" />
     <Content Include="login1.aspx" />
+    <Content Include="Manage_Events.aspx" />
     <Content Include="pricing.html" />
     <Content Include="register.html" />
     <Content Include="schedule.html" />
@@ -121,6 +124,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="add_event.aspx.cs">
+      <DependentUpon>add_event.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="add_event.aspx.designer.cs">
+      <DependentUpon>add_event.aspx</DependentUpon>
+    </Compile>
     <Compile Include="adminD.aspx.cs">
       <DependentUpon>adminD.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -183,6 +193,13 @@
     </Compile>
     <Compile Include="login1.aspx.designer.cs">
       <DependentUpon>login1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage_Events.aspx.cs">
+      <DependentUpon>Manage_Events.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage_Events.aspx.designer.cs">
+      <DependentUpon>Manage_Events.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="sign up.aspx.cs">
