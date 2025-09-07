@@ -5,97 +5,104 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <style>
-
+   <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f6f8;
+    font-family: "Verdana", Geneva, sans-serif;
+            background: linear-gradient(135deg, #4facfe, #00f2fe);
             margin: 0;
             padding: 0;
         }
 
-
         .login-container {
-            width: 400px;
-            margin: 50px auto;
+            width: 420px;
+            margin: 60px auto;
             background: #ffffff;
-            border-radius: 10px;
-            padding: 25px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            border-radius: 15px;
+            padding: 30px 25px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+            animation: fadeIn 1s ease-in-out;
         }
-
 
         .login-container h2 {
             text-align: center;
-            margin-bottom: 5px;
-            color: #333333;
+            margin-bottom: 8px;
+            color: #0d47a1;
+            font-size: 26px;
+            font-weight: bold;
         }
 
         .login-container p {
             text-align: center;
             margin-bottom: 20px;
-            color: #666666;
+            color: #555;
+            font-size: 14px;
         }
-
 
         table {
             width: 100%;
-            border-collapse: collapse;
         }
 
         table td {
-            padding: 8px;
+            padding: 10px;
             vertical-align: middle;
         }
 
         label {
             font-size: 14px;
             font-weight: bold;
-            color: #444444;
+            color: #333;
         }
 
-        .form-control {
+        .form-control, 
+        .aspNetDropDown {
             width: 100%;
-            padding: 8px;
-            border-radius: 6px;
-            border: 1px solid #cccccc;
+            padding: 10px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
             font-size: 14px;
             outline: none;
-            transition: border-color 0.3s;
+            transition: 0.3s;
+            box-sizing: border-box;
         }
 
-        .form-control:focus {
-            border-color: #007bff;
+        .form-control:focus, 
+        .aspNetDropDown:focus {
+            border-color: #4facfe;
+            box-shadow: 0 0 5px rgba(79, 172, 254, 0.8);
         }
-
 
         .aspNetButton {
             width: 100%;
-            padding: 10px;
-            margin-top: 15px;
-            background: #007bff;
+            padding: 12px;
+            margin-top: 20px;
+            background: linear-gradient(135deg, #4facfe, #00c6ff);
             border: none;
-            color: #ffffff;
+            color: #fff;
             font-weight: bold;
-            border-radius: 6px;
+            border-radius: 8px;
             cursor: pointer;
-            transition: background 0.3s;
+            font-size: 16px;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
         }
 
         .aspNetButton:hover {
-            background: #0056b3;
+            background: linear-gradient(135deg, #0083b0, #00b4db);
+            transform: translateY(-2px);
+            box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
         }
-
 
         .footer-text {
             text-align: center;
             margin-top: 15px;
             font-size: 14px;
+            color: #444;
         }
 
         .footer-text a {
             color: #007bff;
             text-decoration: none;
+            font-weight: bold;
         }
 
         .footer-text a:hover {
@@ -107,51 +114,71 @@
             text-align: center;
             margin-top: 10px;
             font-size: 14px;
+            font-weight: bold;
         }
 
-        .validation {
-            color: red;
-            font-size: 12px;
+        /* Animation */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
         }
     </style>
 </head>
 <body>
-    <form id="form1" runat="server">
+     <form id="form1" runat="server">
         <div class="login-container">
             <h2>Create Account</h2>
             <p>Please fill in the details to register</p>
-            <table style="width: 100%;">
+
+            <table>
+                <tr>
+                    <td><label for="txtName">Full Name</label></td>
+                    <td><asp:TextBox ID="txtName" runat="server" CssClass="form-control" placeholder="Enter full name"></asp:TextBox></td>
+                </tr>
 
                 <tr>
+                    <td><label>Gender</label></td>
                     <td>
-                        <label for="txtName">Full Name</label></td>
-                    <td>
-                        <asp:TextBox ID="txtName" runat="server" CssClass="form-control" placeholder="Enter full name"></asp:TextBox>
+                        <asp:RadioButtonList ID="rdbgen" runat="server" RepeatDirection="Horizontal">
+                            <asp:ListItem>Male</asp:ListItem>
+                            <asp:ListItem>Female</asp:ListItem>
+                        </asp:RadioButtonList>
                     </td>
                 </tr>
 
                 <tr>
-                    <td>
-                        <label for="txtEmail">Email Address</label></td>
-                    <td>
-                        <asp:TextBox ID="txtEmail" runat="server" CssClass="form-control" TextMode="Email" placeholder="Enter email"></asp:TextBox>
-
-                    </td>
+                    <td><label for="txtEmail">Email Address</label></td>
+                    <td><asp:TextBox ID="txtEmail" runat="server" CssClass="form-control" TextMode="Email" placeholder="Enter email"></asp:TextBox></td>
                 </tr>
 
                 <tr>
-                    <td>
-                        <label for="txtPassword">Password</label></td>
-                    <td>
-                        <asp:TextBox ID="txtPassword" runat="server" CssClass="form-control" TextMode="Password" placeholder="Enter password"></asp:TextBox>
-                    </td>
+                    <td><label for="txtPassword">Password</label></td>
+                    <td><asp:TextBox ID="txtPassword" runat="server" CssClass="form-control" TextMode="Password" placeholder="Enter password"></asp:TextBox></td>
                 </tr>
 
                 <tr>
+                    <td><label for="txtConfirmPassword">Confirm Password</label></td>
+                    <td><asp:TextBox ID="txtConfirmPassword" runat="server" CssClass="form-control" TextMode="Password" placeholder="Re-enter password"></asp:TextBox></td>
+                </tr>
+
+                <tr>
+                    <td><label for="txtphone">Phone No.</label></td>
+                    <td><asp:TextBox ID="txtphone" runat="server" CssClass="form-control" placeholder="Enter phone number"></asp:TextBox></td>
+                </tr>
+
+                <tr>
+                    <td><label for="dpdct">City</label></td>
                     <td>
-                        <label for="txtConfirmPassword">Confirm Password</label></td>
-                    <td>
-                        <asp:TextBox ID="txtConfirmPassword" runat="server" CssClass="form-control" TextMode="Password" placeholder="Re-enter password"></asp:TextBox>
+                        <asp:DropDownList ID="dpdct" runat="server" CssClass="aspNetDropDown">
+                            <asp:ListItem>--Select City--</asp:ListItem>
+                            <asp:ListItem>Mumbai</asp:ListItem>
+                            <asp:ListItem>Pune</asp:ListItem>
+                            <asp:ListItem>Rajkot</asp:ListItem>
+                            <asp:ListItem>Amreli</asp:ListItem>
+                            <asp:ListItem>Junagath</asp:ListItem>
+                            <asp:ListItem>Surat</asp:ListItem>
+                            <asp:ListItem>Ahemdabad</asp:ListItem>
+                        </asp:DropDownList>
                     </td>
                 </tr>
 

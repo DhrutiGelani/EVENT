@@ -3,6 +3,58 @@
   "WorkspaceRootPath": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|C:\\Users\\DELL\\source\\repos\\EVENT_MS\\event_ms\\signup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|solutionrelative:event_ms\\signup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|C:\\Users\\DELL\\source\\repos\\EVENT_MS\\event_ms\\signup.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|solutionrelative:event_ms\\signup.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|C:\\Users\\DELL\\source\\repos\\EVENT_MS\\event_ms\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|solutionrelative:event_ms\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|c:\\users\\dell\\source\\repos\\event_ms\\event_ms\\admind.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|solutionrelative:event_ms\\admind.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|C:\\Users\\DELL\\source\\repos\\EVENT_MS\\event_ms\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|solutionrelative:event_ms\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|C:\\Users\\DELL\\source\\repos\\EVENT_MS\\event_ms\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|solutionrelative:event_ms\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|C:\\Users\\DELL\\source\\repos\\EVENT_MS\\event_ms\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|solutionrelative:event_ms\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|C:\\Users\\DELL\\source\\repos\\EVENT_MS\\event_ms\\sign up.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|solutionrelative:event_ms\\sign up.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|c:\\users\\dell\\source\\repos\\event_ms\\event_ms\\site2.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|solutionrelative:event_ms\\site2.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|c:\\users\\dell\\source\\repos\\event_ms\\event_ms\\admind.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|solutionrelative:event_ms\\admind.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|C:\\Users\\DELL\\source\\repos\\EVENT_MS\\event_ms\\sign up.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|solutionrelative:event_ms\\sign up.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|c:\\users\\dell\\source\\repos\\event_ms\\event_ms\\admindashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|solutionrelative:event_ms\\admindashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|c:\\users\\dell\\source\\repos\\event_ms\\event_ms\\site2.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|solutionrelative:event_ms\\site2.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|c:\\users\\dell\\source\\repos\\event_ms\\event_ms\\register.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|solutionrelative:event_ms\\register.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -15,43 +67,8 @@
       "RelativeMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|solutionrelative:event_ms\\contact.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|C:\\Users\\DELL\\source\\repos\\EVENT_MS\\event_ms\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|solutionrelative:event_ms\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|C:\\Users\\DELL\\source\\repos\\EVENT_MS\\event_ms\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|solutionrelative:event_ms\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|C:\\Users\\DELL\\source\\repos\\EVENT_MS\\event_ms\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|solutionrelative:event_ms\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|C:\\Users\\DELL\\source\\repos\\EVENT_MS\\event_ms\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|solutionrelative:event_ms\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|C:\\Users\\DELL\\source\\repos\\EVENT_MS\\event_ms\\signup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|solutionrelative:event_ms\\signup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|C:\\Users\\DELL\\source\\repos\\EVENT_MS\\event_ms\\signup.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|solutionrelative:event_ms\\signup.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|C:\\Users\\DELL\\source\\repos\\EVENT_MS\\event_ms\\site1.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
       "RelativeMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|solutionrelative:event_ms\\site1.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|C:\\Users\\DELL\\source\\repos\\EVENT_MS\\event_ms\\sign up.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|solutionrelative:event_ms\\sign up.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|C:\\Users\\DELL\\source\\repos\\EVENT_MS\\event_ms\\sign up.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|solutionrelative:event_ms\\sign up.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_DELL_SOURCE_REPOS_EVENT_MS_EVENT_MS_APP_DATA_DATABASE.MDF/True/SqlTable/dbo.signup.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|C:\\Users\\DELL\\source\\repos\\EVENT_MS\\event_ms\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -65,11 +82,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 12,
+              "Title": "Site2.Master",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\Site2.Master",
+              "RelativeDocumentMoniker": "EVENT_MS\\Site2.Master",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\Site2.Master",
+              "RelativeToolTip": "EVENT_MS\\Site2.Master",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-07T04:04:00.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "register.html",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\register.html",
               "RelativeDocumentMoniker": "EVENT_MS\\register.html",
@@ -82,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 14,
               "Title": "contact.aspx",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\contact.aspx",
               "RelativeDocumentMoniker": "EVENT_MS\\contact.aspx",
@@ -90,11 +120,12 @@
               "RelativeToolTip": "EVENT_MS\\contact.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-09-06T11:45:50.286Z"
+              "WhenOpened": "2025-09-06T11:45:50.286Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 15,
               "Title": "contact.html",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\contact.html",
               "RelativeDocumentMoniker": "EVENT_MS\\contact.html",
@@ -102,23 +133,116 @@
               "RelativeToolTip": "EVENT_MS\\contact.html",
               "ViewState": "AgIAAB0BAAAAAAAAAAAAAB0BAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-09-06T11:41:45.048Z"
+              "WhenOpened": "2025-09-06T11:41:45.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "signup.aspx",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\signup.aspx",
+              "RelativeDocumentMoniker": "EVENT_MS\\signup.aspx",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\signup.aspx",
+              "RelativeToolTip": "EVENT_MS\\signup.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-01T13:38:43.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "adminD.aspx",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\adminD.aspx",
+              "RelativeDocumentMoniker": "EVENT_MS\\adminD.aspx",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\adminD.aspx",
+              "RelativeToolTip": "EVENT_MS\\adminD.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-07T04:09:50.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "signup.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\signup.aspx.cs",
+              "RelativeDocumentMoniker": "EVENT_MS\\signup.aspx.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\signup.aspx.cs",
+              "RelativeToolTip": "EVENT_MS\\signup.aspx.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowCoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T13:39:46.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "login.aspx",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\login.aspx",
+              "RelativeDocumentMoniker": "EVENT_MS\\login.aspx",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\login.aspx",
+              "RelativeToolTip": "EVENT_MS\\login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-01T13:33:23.204Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "adminDashboard.aspx",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\adminDashboard.aspx",
+              "RelativeDocumentMoniker": "EVENT_MS\\adminDashboard.aspx",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\adminDashboard.aspx",
+              "RelativeToolTip": "EVENT_MS\\adminDashboard.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-07T04:06:25.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Site2.Master.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\Site2.Master.cs",
+              "RelativeDocumentMoniker": "EVENT_MS\\Site2.Master.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\Site2.Master.cs",
+              "RelativeToolTip": "EVENT_MS\\Site2.Master.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwvw0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T04:09:13.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "adminD.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\adminD.aspx.cs",
+              "RelativeDocumentMoniker": "EVENT_MS\\adminD.aspx.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\adminD.aspx.cs",
+              "RelativeToolTip": "EVENT_MS\\adminD.aspx.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwBQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T04:11:11.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "sign up.aspx.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\sign up.aspx.cs",
               "RelativeDocumentMoniker": "EVENT_MS\\sign up.aspx.cs",
               "ToolTip": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\sign up.aspx.cs",
               "RelativeToolTip": "EVENT_MS\\sign up.aspx.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAQwCIAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAQwBYAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T09:34:33.952Z"
+              "WhenOpened": "2025-09-04T09:34:33.952Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 7,
               "Title": "sign up.aspx",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\sign up.aspx",
               "RelativeDocumentMoniker": "EVENT_MS\\sign up.aspx",
@@ -126,20 +250,12 @@
               "RelativeToolTip": "EVENT_MS\\sign up.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-09-04T09:33:26.723Z"
+              "WhenOpened": "2025-09-04T09:33:26.723Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "dbo.signup.sql",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_DELL_SOURCE_REPOS_EVENT_MS_EVENT_MS_APP_DATA_DATABASE.MDF/True/SqlTable/dbo.signup.sql",
-              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_DELL_SOURCE_REPOS_EVENT_MS_EVENT_MS_APP_DATA_DATABASE.MDF/True/SqlTable/dbo.signup.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-09-04T09:17:29.074Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\Web.config",
               "RelativeDocumentMoniker": "EVENT_MS\\Web.config",
@@ -152,31 +268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "signup.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\signup.aspx.cs",
-              "RelativeDocumentMoniker": "EVENT_MS\\signup.aspx.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\signup.aspx.cs",
-              "RelativeToolTip": "EVENT_MS\\signup.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T13:39:46.608Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "signup.aspx",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\signup.aspx",
-              "RelativeDocumentMoniker": "EVENT_MS\\signup.aspx",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\signup.aspx",
-              "RelativeToolTip": "EVENT_MS\\signup.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-09-01T13:38:43.256Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "login.aspx.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\login.aspx.cs",
               "RelativeDocumentMoniker": "EVENT_MS\\login.aspx.cs",
@@ -184,23 +276,12 @@
               "RelativeToolTip": "EVENT_MS\\login.aspx.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAlwBcAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T13:37:08.084Z"
+              "WhenOpened": "2025-09-01T13:37:08.084Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "login.aspx",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\login.aspx",
-              "RelativeDocumentMoniker": "EVENT_MS\\login.aspx",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\login.aspx",
-              "RelativeToolTip": "EVENT_MS\\login.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-09-01T13:33:23.204Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "home.aspx",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\home.aspx",
               "RelativeDocumentMoniker": "EVENT_MS\\home.aspx",
@@ -208,11 +289,12 @@
               "RelativeToolTip": "EVENT_MS\\home.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-09-01T12:32:44.391Z"
+              "WhenOpened": "2025-09-01T12:32:44.391Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "index.aspx",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\index.aspx",
               "RelativeDocumentMoniker": "EVENT_MS\\index.aspx",
@@ -220,11 +302,12 @@
               "RelativeToolTip": "EVENT_MS\\index.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-09-01T12:32:32.206Z"
+              "WhenOpened": "2025-09-01T12:32:32.206Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
               "Title": "Site1.Master",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\Site1.Master",
               "RelativeDocumentMoniker": "EVENT_MS\\Site1.Master",
@@ -232,7 +315,8 @@
               "RelativeToolTip": "EVENT_MS\\Site1.Master",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-09-01T12:26:57.798Z"
+              "WhenOpened": "2025-09-01T12:26:57.798Z",
+              "EditorCaption": ""
             }
           ]
         }

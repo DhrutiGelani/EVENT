@@ -31,7 +31,13 @@ namespace EVENT_MS
         void clear()
         {
             txtName.Text = "";
+            rdbgen.Text = "";
+            txtEmail.Text = "";
+
             txtPassword.Text = "";
+            txtphone.Text = "";
+            dpdct.Text = "";
+
         }
         protected void btnRegister_Click(object sender, EventArgs e)
         {
@@ -39,7 +45,7 @@ namespace EVENT_MS
             {
                 getcon();
 
-                cmd = new SqlCommand("INSERT INTO signup (UserName, Email, Password, ConfirmPassword) VALUES ('" + txtName.Text + "', '" + txtEmail.Text + "', '" + txtPassword.Text + "', '" + txtConfirmPassword.Text + "')", con);
+                cmd = new SqlCommand("INSERT INTO signup (UserName,Gender, Email, Password, ConfirmPassword,phone,city) VALUES ('" + txtName.Text + "', '"+rdbgen.SelectedItem + "','" + txtEmail.Text + "', '" + txtPassword.Text + "', '" + txtConfirmPassword.Text + "','"+ txtphone.Text+"','"+ dpdct.SelectedValue + "')", con);
                 cmd.ExecuteNonQuery();
                 clear();
                 Response.Redirect("login.aspx");

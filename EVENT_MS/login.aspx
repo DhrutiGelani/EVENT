@@ -5,120 +5,107 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <style>
+  <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f6f8;
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: linear-gradient(135deg, #4facfe, #00f2fe);
             margin: 0;
             padding: 0;
         }
 
         .login-container {
             width: 420px;
-            margin: 60px auto;
+            margin: 80px auto;
             background: #ffffff;
-            border-radius: 12px;
-            padding: 30px;
-            box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+            border-radius: 15px;
+            padding: 35px 25px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+            animation: fadeIn 1s ease-in-out;
         }
 
-            .login-container h2 {
-                text-align: center;
-                margin-bottom: 8px;
-                color: #333333;
-                font-size: 24px;
-            }
+        .login-container h2 {
+            text-align: center;
+            margin-bottom: 8px;
+            color: #0d47a1;
+            font-size: 26px;
+            font-weight: bold;
+        }
 
-            .login-container p {
-                text-align: center;
-                margin-bottom: 25px;
-                color: #666666;
-                font-size: 14px;
-            }
+        .login-container p {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #555;
+            font-size: 14px;
+        }
 
         table {
             width: 100%;
-            border-collapse: collapse;
         }
 
-            table td {
-                padding: 10px;
-                vertical-align: middle;
-            }
+        table td {
+            padding: 10px;
+            vertical-align: middle;
+        }
 
         label {
             font-size: 14px;
             font-weight: bold;
-            color: #444444;
+            color: #333;
         }
 
         .form-control {
             width: 100%;
             padding: 10px;
             border-radius: 8px;
-            border: 1px solid #cccccc;
+            border: 1px solid #ccc;
             font-size: 14px;
             outline: none;
-            transition: border-color 0.3s, box-shadow 0.3s;
+            transition: 0.3s;
+            box-sizing: border-box;
         }
 
-            .form-control:focus {
-                border-color: #007bff;
-                box-shadow: 0 0 4px rgba(0,123,255,0.4);
-            }
+        .form-control:focus {
+            border-color: #4facfe;
+            box-shadow: 0 0 5px rgba(79, 172, 254, 0.8);
+        }
 
         .aspNetButton {
             width: 100%;
             padding: 12px;
-            margin-top: 18px;
-            background: #007bff;
+            margin-top: 20px;
+            background: linear-gradient(135deg, #4facfe, #00c6ff);
             border: none;
-            color: #ffffff;
+            color: #fff;
             font-weight: bold;
             border-radius: 8px;
             cursor: pointer;
-            transition: background 0.3s, transform 0.1s;
+            font-size: 16px;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
         }
 
-            .aspNetButton:hover {
-                background: #0056b3;
-            }
-
-            .aspNetButton:active {
-                transform: scale(0.98);
-            }
-
-        .remember-forgot {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            font-size: 13px;
-            margin-top: 5px;
+        .aspNetButton:hover {
+            background: linear-gradient(135deg, #0083b0, #00b4db);
+            transform: translateY(-2px);
+            box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
         }
-
-            .remember-forgot a {
-                color: #007bff;
-                text-decoration: none;
-            }
-
-                .remember-forgot a:hover {
-                    text-decoration: underline;
-                }
 
         .footer-text {
             text-align: center;
-            margin-top: 20px;
+            margin-top: 15px;
             font-size: 14px;
+            color: #444;
         }
 
-            .footer-text a {
-                color: #007bff;
-                text-decoration: none;
-            }
+        .footer-text a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
 
-                .footer-text a:hover {
-                    text-decoration: underline;
-                }
+        .footer-text a:hover {
+            text-decoration: underline;
+        }
 
         .error-label {
             color: red;
@@ -128,45 +115,30 @@
             font-weight: bold;
         }
 
-        .validation {
-            color: red;
-            font-size: 12px;
+        /* Animation */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
         }
     </style>
 
 </head>
 <body>
-    <form id="form1" runat="server">
+   <form id="form1" runat="server">
         <div class="login-container">
             <h2>Welcome Back</h2>
             <p>Please sign in to your account</p>
 
-            <table style="width: 100%;">
-
+            <table>
                 <tr>
-                    <td>
-                        <label for="txtEmail">Email Address</label></td>
-                    <td>
-                        <asp:TextBox ID="txtEmail" runat="server" CssClass="form-control" TextMode="Email" placeholder="Enter email"></asp:TextBox>
-                    </td>
+                    <td><label for="txtEmail">Email Address</label></td>
+                    <td><asp:TextBox ID="txtEmail" runat="server" CssClass="form-control" TextMode="Email" placeholder="Enter email"></asp:TextBox></td>
                 </tr>
 
                 <tr>
-                    <td>
-                        <label for="txtPassword">Password</label></td>
-                    <td>
-                        <asp:TextBox ID="txtPassword" runat="server" CssClass="form-control" TextMode="Password" placeholder="Enter password"></asp:TextBox>
-                    </td>
+                    <td><label for="txtPassword">Password</label></td>
+                    <td><asp:TextBox ID="txtPassword" runat="server" CssClass="form-control" TextMode="Password" placeholder="Enter password"></asp:TextBox></td>
                 </tr>
-
-              <%--  <tr>
-                    <td colspan="2">
-                        <div class="remember-forgot">
-                            <asp:CheckBox ID="chkRemember" runat="server" Text=" Remember me" />
-                            <a href="#">Forgot your password?</a>
-                        </div>
-                    </td>
-                </tr>--%>
 
                 <tr>
                     <td colspan="2" style="text-align: center;">
@@ -175,11 +147,9 @@
                 </tr>
             </table>
 
-
             <div class="footer-text">
-                Don’t have an account? <a href="Register.aspx">Sign up here</a>
+                Don’t have an account? <a href="signup.aspx">Sign up here</a>
             </div>
-
 
             <asp:Label ID="lblError" runat="server" CssClass="error-label" Visible="false"></asp:Label>
         </div>
