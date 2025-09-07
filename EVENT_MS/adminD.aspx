@@ -143,7 +143,7 @@
   <div class="sidebar">
     <h2>Admin</h2>
     <a href="#" class="active">Dashboard</a>
-    <a href="add_event.aspx">add Event</a>
+    <a href="manage_events.aspx">manage events</a>
     <a href="#">Images</a>
     <a href="#">Manage Events</a>
     <a href="#">Booking</a>

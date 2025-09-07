@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Manage_Events.aspx.cs" Inherits="EVENT_MS.Manage_Events" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="manage_events.aspx.cs" Inherits="EVENT_MS.add_event" %>
 
 <!DOCTYPE html>
 
@@ -10,6 +10,36 @@
     <form id="form1" runat="server">
         <div>
             <center>
+                <h1> manage all event </h1>
+    <table>
+        <tr>
+            <td>name</td>
+            <td>
+                <asp:TextBox ID="Textnm" runat="server"></asp:TextBox></td>
+        </tr>
+        <tr>
+     <td>descrition</td>
+     <td>
+         <asp:TextBox ID="Textdes" runat="server"></asp:TextBox></td>
+ </tr>
+            <td>location</td>
+    <td>
+        <asp:TextBox ID="Textloc" runat="server"></asp:TextBox></td>
+</tr>
+        
+        <tr>
+            <td>image</td>
+            <td>
+                <asp:FileUpload ID="flpimg" runat="server" /></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <asp:Button ID="Button1" runat="server" Text="add event" OnClick="Button1_Click" /></td>
+        </tr>
+    </table>
+                <br />
+                <br />
             <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" OnRowCommand="GridView1_RowCommand">
                 <Columns>
                     <asp:TemplateField HeaderText="id">
@@ -39,18 +69,17 @@
                     </asp:TemplateField>
                     <asp:TemplateField HeaderText="edit">
                         <ItemTemplate>
-                            <asp:LinkButton ID="LinkButton1" runat="server" CommandArgument="cmd_edt">edit</asp:LinkButton>
+                            <asp:LinkButton ID="LinkButton1" runat="server" CommandArgument='<%# Eval("Id") %>' CommandName="cmd_edt">edit</asp:LinkButton>
                         </ItemTemplate>
                     </asp:TemplateField>
                     <asp:TemplateField HeaderText="delete">
                         <ItemTemplate>
-                            <asp:LinkButton ID="LinkButton2" runat="server" CommandArgument="cmd_dlt">delete</asp:LinkButton>
+                            <asp:LinkButton ID="LinkButton2" runat="server" CommandArgument='<%# Eval("Id") %>' CommandName="cmd_dlt">delete</asp:LinkButton>
                         </ItemTemplate>
                     </asp:TemplateField>
                 </Columns>
             </asp:GridView>
-                </center>
-        </div>
+                </div>
     </form>
 </body>
 </html>
