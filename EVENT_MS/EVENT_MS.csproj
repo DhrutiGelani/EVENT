@@ -68,10 +68,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="about.html" />
+    <Content Include="AdminLogin.aspx" />
+    <Content Include="AdminRegistration.aspx" />
     <Content Include="App_Data\Database.mdf" />
     <Content Include="App_Data\Database_log.ldf">
       <DependentUpon>Database.mdf</DependentUpon>
     </Content>
+    <Content Include="contact.aspx" />
     <Content Include="contact.html" />
     <Content Include="css\bootstrap-icons.css" />
     <Content Include="css\bootstrap.min.css" />
@@ -116,6 +119,27 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminLogin.aspx.cs">
+      <DependentUpon>AdminLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminLogin.aspx.designer.cs">
+      <DependentUpon>AdminLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminRegistration.aspx.cs">
+      <DependentUpon>AdminRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminRegistration.aspx.designer.cs">
+      <DependentUpon>AdminRegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contact.aspx.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contact.aspx.designer.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+    </Compile>
     <Compile Include="home.aspx.cs">
       <DependentUpon>home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

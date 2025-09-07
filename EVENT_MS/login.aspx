@@ -9,63 +9,131 @@
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f6f8;
+            margin: 0;
+            padding: 0;
         }
+
         .login-container {
-            width: 400px;
-            margin: 50px auto;
-            background: #fff;
-            border-radius: 10px;
-            padding: 25px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            width: 420px;
+            margin: 60px auto;
+            background: #ffffff;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 6px 18px rgba(0,0,0,0.12);
         }
-        .login-container h2 {
-            text-align: center;
-            margin-bottom: 5px;
-            color: #333;
+
+            .login-container h2 {
+                text-align: center;
+                margin-bottom: 8px;
+                color: #333333;
+                font-size: 24px;
+            }
+
+            .login-container p {
+                text-align: center;
+                margin-bottom: 25px;
+                color: #666666;
+                font-size: 14px;
+            }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
         }
-        .login-container p {
-            text-align: center;
-            margin-bottom: 20px;
-            color: #666;
+
+            table td {
+                padding: 10px;
+                vertical-align: middle;
+            }
+
+        label {
+            font-size: 14px;
+            font-weight: bold;
+            color: #444444;
         }
-        .aspNetButton {
+
+        .form-control {
             width: 100%;
             padding: 10px;
-            margin-top: 15px;
+            border-radius: 8px;
+            border: 1px solid #cccccc;
+            font-size: 14px;
+            outline: none;
+            transition: border-color 0.3s, box-shadow 0.3s;
+        }
+
+            .form-control:focus {
+                border-color: #007bff;
+                box-shadow: 0 0 4px rgba(0,123,255,0.4);
+            }
+
+        .aspNetButton {
+            width: 100%;
+            padding: 12px;
+            margin-top: 18px;
             background: #007bff;
             border: none;
-            color: white;
+            color: #ffffff;
             font-weight: bold;
-            border-radius: 6px;
+            border-radius: 8px;
             cursor: pointer;
-            transition: background 0.3s;
+            transition: background 0.3s, transform 0.1s;
         }
-        .aspNetButton:hover {
-            background: #0056b3;
-        }
+
+            .aspNetButton:hover {
+                background: #0056b3;
+            }
+
+            .aspNetButton:active {
+                transform: scale(0.98);
+            }
+
         .remember-forgot {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-top: 10px;
+            font-size: 13px;
+            margin-top: 5px;
         }
+
+            .remember-forgot a {
+                color: #007bff;
+                text-decoration: none;
+            }
+
+                .remember-forgot a:hover {
+                    text-decoration: underline;
+                }
+
         .footer-text {
             text-align: center;
-            margin-top: 15px;
+            margin-top: 20px;
             font-size: 14px;
         }
-        .footer-text a {
-            color: #007bff;
-            text-decoration: none;
+
+            .footer-text a {
+                color: #007bff;
+                text-decoration: none;
+            }
+
+                .footer-text a:hover {
+                    text-decoration: underline;
+                }
+
+        .error-label {
+            color: red;
+            text-align: center;
+            margin-top: 12px;
+            font-size: 14px;
+            font-weight: bold;
         }
-        .footer-text a:hover {
-            text-decoration: underline;
-        }
-        .error-label, .validation {
+
+        .validation {
             color: red;
             font-size: 12px;
         }
     </style>
+
 </head>
 <body>
     <form id="form1" runat="server">
@@ -73,33 +141,35 @@
             <h2>Welcome Back</h2>
             <p>Please sign in to your account</p>
 
-            <table style="width:100%;">
+            <table style="width: 100%;">
 
                 <tr>
-                    <td><label for="txtEmail">Email Address</label></td>
+                    <td>
+                        <label for="txtEmail">Email Address</label></td>
                     <td>
                         <asp:TextBox ID="txtEmail" runat="server" CssClass="form-control" TextMode="Email" placeholder="Enter email"></asp:TextBox>
                     </td>
                 </tr>
 
                 <tr>
-                    <td><label for="txtPassword">Password</label></td>
+                    <td>
+                        <label for="txtPassword">Password</label></td>
                     <td>
                         <asp:TextBox ID="txtPassword" runat="server" CssClass="form-control" TextMode="Password" placeholder="Enter password"></asp:TextBox>
                     </td>
                 </tr>
 
-                <tr>
+              <%--  <tr>
                     <td colspan="2">
                         <div class="remember-forgot">
                             <asp:CheckBox ID="chkRemember" runat="server" Text=" Remember me" />
                             <a href="#">Forgot your password?</a>
                         </div>
                     </td>
-                </tr>
+                </tr>--%>
 
                 <tr>
-                    <td colspan="2" style="text-align:center;">
+                    <td colspan="2" style="text-align: center;">
                         <asp:Button ID="btnLogin" runat="server" CssClass="aspNetButton" Text="Sign In" OnClick="btnLogin_Click" />
                     </td>
                 </tr>

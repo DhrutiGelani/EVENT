@@ -8,6 +8,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Xml.Linq;
 
 namespace EVENT_MS
 {
@@ -31,7 +32,7 @@ namespace EVENT_MS
         }
         void clear()
         {
-            txtUsername.Text = "";
+            txtEmail.Text = "";
             txtPassword.Text = "";
         }
 
@@ -41,7 +42,7 @@ namespace EVENT_MS
             {
                 getcon();
 
-                cmd = new SqlCommand("insert into signup(UserName,PassWord,ConfirmPassword) values('" + txtUsername.Text + "' , '" + txtPassword.Text + "' ,  '" + txtConfirmPassword.Text + "' ')", con);
+                cmd = new SqlCommand("INSERT INTO signup (UserName, Email, Password, ConfirmPassword) VALUES ('" + txtName.Text + "', '" + txtEmail.Text + "', '" + txtPassword.Text + "', '" + txtConfirmPassword.Text + "')", con);
                 cmd.ExecuteNonQuery();
                 clear();
                 Response.Redirect("login1.aspx");
