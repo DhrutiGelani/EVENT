@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|c:\\users\\dell\\source\\repos\\event_ms\\event_ms\\adminregistration.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|solutionrelative:event_ms\\adminregistration.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|c:\\users\\dell\\source\\repos\\event_ms\\event_ms\\adminregistration.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|solutionrelative:event_ms\\adminregistration.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|c:\\users\\dell\\source\\repos\\event_ms\\event_ms\\admind.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|solutionrelative:event_ms\\admind.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|C:\\Users\\DELL\\source\\repos\\EVENT_MS\\event_ms\\signup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|solutionrelative:event_ms\\signup.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
@@ -15,7 +27,7 @@
       "RelativeMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|solutionrelative:event_ms\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|c:\\users\\dell\\source\\repos\\event_ms\\event_ms\\admind.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|C:\\Users\\DELL\\source\\repos\\EVENT_MS\\event_ms\\admind.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|solutionrelative:event_ms\\admind.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -35,27 +47,23 @@
       "RelativeMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|solutionrelative:event_ms\\sign up.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|c:\\users\\dell\\source\\repos\\event_ms\\event_ms\\site2.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|C:\\Users\\DELL\\source\\repos\\EVENT_MS\\event_ms\\site2.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|solutionrelative:event_ms\\site2.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|c:\\users\\dell\\source\\repos\\event_ms\\event_ms\\admind.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|solutionrelative:event_ms\\admind.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|C:\\Users\\DELL\\source\\repos\\EVENT_MS\\event_ms\\sign up.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|solutionrelative:event_ms\\sign up.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|c:\\users\\dell\\source\\repos\\event_ms\\event_ms\\admindashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|C:\\Users\\DELL\\source\\repos\\EVENT_MS\\event_ms\\admindashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|solutionrelative:event_ms\\admindashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|c:\\users\\dell\\source\\repos\\event_ms\\event_ms\\site2.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "AbsoluteMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|C:\\Users\\DELL\\source\\repos\\EVENT_MS\\event_ms\\site2.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
       "RelativeMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|solutionrelative:event_ms\\site2.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|c:\\users\\dell\\source\\repos\\event_ms\\event_ms\\register.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|C:\\Users\\DELL\\source\\repos\\EVENT_MS\\event_ms\\register.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AA76BC48-17EE-4B4F-B760-B325016B27EC}|EVENT_MS\\EVENT_MS.csproj|solutionrelative:event_ms\\register.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -82,24 +90,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 0,
+              "Title": "AdminRegistration.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\AdminRegistration.aspx.cs",
+              "RelativeDocumentMoniker": "EVENT_MS\\AdminRegistration.aspx.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\AdminRegistration.aspx.cs",
+              "RelativeToolTip": "EVENT_MS\\AdminRegistration.aspx.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAqwDAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T06:25:52.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminRegistration.aspx",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\AdminRegistration.aspx",
+              "RelativeDocumentMoniker": "EVENT_MS\\AdminRegistration.aspx",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\AdminRegistration.aspx",
+              "RelativeToolTip": "EVENT_MS\\AdminRegistration.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-07T06:25:15.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Site2.Master",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\Site2.Master",
               "RelativeDocumentMoniker": "EVENT_MS\\Site2.Master",
               "ToolTip": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\Site2.Master",
               "RelativeToolTip": "EVENT_MS\\Site2.Master",
-              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2025-09-07T04:04:00.233Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "register.html",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\register.html",
               "RelativeDocumentMoniker": "EVENT_MS\\register.html",
@@ -112,7 +146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "contact.aspx",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\contact.aspx",
               "RelativeDocumentMoniker": "EVENT_MS\\contact.aspx",
@@ -125,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "contact.html",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\contact.html",
               "RelativeDocumentMoniker": "EVENT_MS\\contact.html",
@@ -138,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "signup.aspx",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\signup.aspx",
               "RelativeDocumentMoniker": "EVENT_MS\\signup.aspx",
@@ -151,20 +185,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "adminD.aspx",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\adminD.aspx",
               "RelativeDocumentMoniker": "EVENT_MS\\adminD.aspx",
               "ToolTip": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\adminD.aspx",
               "RelativeToolTip": "EVENT_MS\\adminD.aspx",
-              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2025-09-07T04:09:50.451Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "signup.aspx.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\signup.aspx.cs",
               "RelativeDocumentMoniker": "EVENT_MS\\signup.aspx.cs",
@@ -177,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "login.aspx",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\login.aspx",
               "RelativeDocumentMoniker": "EVENT_MS\\login.aspx",
@@ -190,7 +224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "adminDashboard.aspx",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\adminDashboard.aspx",
               "RelativeDocumentMoniker": "EVENT_MS\\adminDashboard.aspx",
@@ -203,7 +237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Site2.Master.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\Site2.Master.cs",
               "RelativeDocumentMoniker": "EVENT_MS\\Site2.Master.cs",
@@ -216,7 +250,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "adminD.aspx.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\adminD.aspx.cs",
               "RelativeDocumentMoniker": "EVENT_MS\\adminD.aspx.cs",
@@ -229,7 +263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "sign up.aspx.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\sign up.aspx.cs",
               "RelativeDocumentMoniker": "EVENT_MS\\sign up.aspx.cs",
@@ -242,7 +276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "sign up.aspx",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\sign up.aspx",
               "RelativeDocumentMoniker": "EVENT_MS\\sign up.aspx",
@@ -255,7 +289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\Web.config",
               "RelativeDocumentMoniker": "EVENT_MS\\Web.config",
@@ -268,7 +302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "login.aspx.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\login.aspx.cs",
               "RelativeDocumentMoniker": "EVENT_MS\\login.aspx.cs",
@@ -281,7 +315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "home.aspx",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\home.aspx",
               "RelativeDocumentMoniker": "EVENT_MS\\home.aspx",
@@ -294,7 +328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "index.aspx",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\index.aspx",
               "RelativeDocumentMoniker": "EVENT_MS\\index.aspx",
@@ -307,7 +341,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "Site1.Master",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\EVENT_MS\\EVENT_MS\\Site1.Master",
               "RelativeDocumentMoniker": "EVENT_MS\\Site1.Master",

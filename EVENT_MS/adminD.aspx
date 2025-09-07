@@ -157,7 +157,6 @@
     <!-- Header -->
     <header>
       <h1>Perfect Day Event Management</h1>
-      <button class="logout">Logout</button>
     </header>
 
     <!-- Main Section -->

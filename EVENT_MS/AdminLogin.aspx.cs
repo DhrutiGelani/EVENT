@@ -43,14 +43,14 @@ namespace EVENT_MS
             if (txtEmail.Text != null && txtPassword.Text != null)
             {
                 getcon();
-                cmd = new SqlCommand("select count(*) from adminLogin where Email='" + txtEmail.Text + "' and Password='" + txtPassword.Text + "'", con);
+                cmd = new SqlCommand("select count(*) from adminR where Email='" + txtEmail.Text + "' and Password='" + txtPassword.Text + "'", con);
 
                 i = Convert.ToInt32(cmd.ExecuteScalar());
 
                 if (i > 0)
                 {
                     Session["admin"] = txtEmail.Text;
-                    Response.Redirect("AdminDashboard.aspx");
+                    Response.Redirect("adminD.aspx");
                 }
                 else
                 {

@@ -43,10 +43,10 @@ namespace EVENT_MS
             {
                 getcon();
 
-                cmd = new SqlCommand("INSERT INTO admin (UserName, Email, Password, ConfirmPassword) VALUES ('" + txtName.Text + "', '" + txtEmail.Text + "', '" + txtPassword.Text + "', '" + txtConfirmPassword.Text + "')", con);
+                cmd = new SqlCommand("INSERT INTO adminR (UserName, Email, Password, ConfirmPassword) VALUES ('" + txtUsername.Text + "', '" + txtEmail.Text + "', '" + txtPassword.Text + "', '" + txtConfirmPassword.Text + "')", con);
                 cmd.ExecuteNonQuery();
                 clear();
-                Response.Redirect("login.aspx");
+                Response.Redirect("AdminLogin.aspx");
 
             }
         }
